@@ -1,0 +1,32 @@
+.container {
+  width: 90rem;
+  height: auto;
+}
+:root {
+  --bg-color: #151b27;
+  --second-bg-color: #434b58;
+  --text-color: #fff;
+  --main-color: rgb(5, 189, 202);
+}
+
+.header-container {
+  width: 100%;
+  height: auto;
+  background: var(--second-bg-color);
+}
+
+.header-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+.p-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+.p-container p {
+  font-size: 1.25rem;
+  color: var(--text-color);
+}

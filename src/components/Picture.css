@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #151b27;
+  --second-bg-color: #434b58;
+  --text-color: #fff;
+  --main-color: rgb(5, 189, 202);
+}
+
+.nasa-picture {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+}
+.p-title {
+  display: block;
+  text-align: center;
+  color: var(--text-color);
+}
+.nasa-picture img {
+  margin: 0 3rem 1rem 3rem;
+  border: 0.15rem solid var(--main-color);
+  border-radius: 5rem;
+}
+.copyright {
+  color: var(--text-color);
+}
+.date {
+  color: var(--text-color);
+}
+.text {
+  margin: 0 3rem 1rem 3rem;
+  text-align: center;
+  color: var(--text-color);
+}
