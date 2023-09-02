@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Picture from "./components/Picture";
 import axios from "axios";
+import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState("");
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Picture data={data} />
+      <Footer />
     </div>
   );
 }
